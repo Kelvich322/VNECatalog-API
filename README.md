@@ -29,8 +29,8 @@ REST API для управления каталогом товаров с исп
 ### 1. Клонирование репозитория
 
 ```bash
-git clone <your-repo-url>
-cd vnecatalog
+git clone https://github.com/Kelvich322/VNECatalog-API.git
+cd VNECatalog-API
 ```
 ### 2. Запуск через Docker Compose
 
