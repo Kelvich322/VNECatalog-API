@@ -71,7 +71,7 @@ poetry run pytest -v
 ```
 Если возникает проблема с модулем app, выполните:
 ```bash
-export PYTHONPATH=/home/kelvich/Desktop/VNECatalog/backend:$PYTHONPATH
+export PYTHONPATH=$PWD/backend:$PYTHONPATH
 ```
 
 ## Просмотр логов
