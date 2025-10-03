@@ -60,9 +60,18 @@ docker compose down
 
 ## Запуск тестов
 
+Локально. Необходимы установленные poetry и python. Необходимо установить dev зависимости: 
 ```bash
 cd backend
-poetry run pytest -v # либо PYTHONPATH=$(pwd) pytest -v, если возникнет проблема с импортом модуля app
+poetry install --with dev
+```
+Далее:
+```bash
+poetry run pytest -v
+```
+Если возникает проблема с модулем app, выполните:
+```bash
+export PYTHONPATH=/home/kelvich/Desktop/VNECatalog/backend:$PYTHONPATH
 ```
 
 ## Просмотр логов
