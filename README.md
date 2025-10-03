@@ -15,14 +15,13 @@ REST API для управления каталогом товаров с исп
 - **Комбинированный поиск** - `GET /api/v1/productcategory=Electronics&name=apple`
 
 ## Стек
-
-- **FastAPI**
-- **PostgreSQL**
-- **SQLAlchemy**
-- **Pydantic**
-- **Docker**
-- **Poetry**
-- **Uvicorn**
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-100000?style=for-the-badge&logo=sqlalchemy&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
+![Poetry](https://img.shields.io/badge/Poetry-60A5FA?style=for-the-badge&logo=poetry&logoColor=white)
+![Uvicorn](https://img.shields.io/badge/Uvicorn-5A67D8?style=for-the-badge&logo=uvicorn&logoColor=white)
 
 ## Запуск проекта
 
